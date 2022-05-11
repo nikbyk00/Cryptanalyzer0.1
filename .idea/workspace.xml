@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e7b3231-25b6-4b46-a324-2df4d6f131ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decrypt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cryptanalyzer/Alphabet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cryptanalyzer/BruteForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cryptanalyzer/Decryption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cryptanalyzer/Encryption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cryptanalyzer/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cryptanalyzer/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/cryptanalyzer/hello-view.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="6e7b3231-25b6-4b46-a324-2df4d6f131ba" name="Changes" comment="nb85294@gmail.com&#10;Nikita Bychkov" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +70,14 @@
       <option name="presentableId" value="Default" />
       <updated>1652260177201</updated>
     </task>
+    <task id="LOCAL-00001" summary="nb85294@gmail.com&#10;Nikita Bychkov">
+      <created>1652263103379</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652263103379</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +90,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nb85294@gmail.com&#10;Nikita Bychkov" />
+    <option name="LAST_COMMIT_MESSAGE" value="nb85294@gmail.com&#10;Nikita Bychkov" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
