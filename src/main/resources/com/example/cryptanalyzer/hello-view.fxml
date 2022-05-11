@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" centerShape="false" nodeOrientation="RIGHT_TO_LEFT" prefHeight="348.0" prefWidth="441.0" spacing="20.0" style="-fx-background-color: #1d3557;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cryptanalyzer.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Cryptanalyzer">
+        <font>
+            <Font name="System Bold" size="20.0" />
+        </font>
+    </Text>
+    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Режимы работы." wrappingWidth="115.9873046875">
+        <font>
+            <Font name="System Italic" size="14.0" />
+        </font>
+    </Text>
+    <Button fx:id="encryption" onAction="#actionEncryption" prefHeight="25.0" prefWidth="99.0" text="шифратор" />
+    <Button fx:id="decryption" mnemonicParsing="false" onAction="#actionDecryption" prefHeight="25.0" prefWidth="99.0" text="дешифратор" />
+    <Button fx:id="bruteForce" alignment="TOP_CENTER" mnemonicParsing="false" onAction="#actionBruteForce" prefHeight="25.0" prefWidth="99.0" text="brute force" textOverrun="CLIP" />
+    <effect>
+        <Glow level="0.0" />
+    </effect>
+</VBox>
