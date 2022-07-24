@@ -2,6 +2,8 @@ package com.example.cryptanalyzer;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import java.io.IOException;
+import java.util.ArrayList;
 
 
 public class HelloController {
@@ -13,20 +15,34 @@ public class HelloController {
     @FXML
     protected Button bruteForce;
 
+    private ArrayList<String> list = new ArrayList<>();
+    private Encryption encrypt = new Encryption(Alphabet.fillingWithSymbols(list));
+
+
     @FXML
-    void actionEncryption(){
+    void actionEncryption() {
         encryption.setOnAction(event -> {
-            Encryption.encryptText();
+            try {
+                encrypt.encryptText();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         });
     }
+
     @FXML
-    void actionDecryption(){
+    void actionDecryption() {
         decryption.setOnAction(event -> {
-            Decryption.decryptionOfTheText();
+            try {
+                encrypt.decryptionOfTheText();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         });
     }
+
     @FXML
-    void actionBruteForce(){
+    void actionBruteForce() {
         bruteForce.setOnAction(event -> {
             BruteForce.decodingBruteForce();
         });

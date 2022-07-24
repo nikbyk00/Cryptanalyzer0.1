@@ -24,12 +24,9 @@ public class HelloApplication extends Application {
         String text = console.nextLine();
         try {
             FileOutputStream outputStream = new FileOutputStream("encrypt");
-            outputStream.write(text.getBytes(StandardCharsets.UTF_8)); // записываем текст в файл 
+            outputStream.write(text.getBytes(StandardCharsets.UTF_8)); // записываем текст в файл
 
             launch();
-            Encryption.encryptText(); //метод для шифрования с ключом
-            Decryption.decryptionOfTheText(); //метод для дешифрования с ключом
-            BruteForce.decodingBruteForce(); // метод bruteForce
         } catch (IOException e) {
             e.printStackTrace();
         }
